@@ -95,7 +95,9 @@ article img {
     border-width: 0;
     outline-width: 0;
 }
-
+#blockquote{
+    float: right;
+}
 
 #screenshots_gallary li{
     display: inline;
