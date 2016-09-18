@@ -8,11 +8,12 @@ section, header, article, nav {
 }
 
 body {
-    margin: 1em 10%;
+    margin: 0.5em 10%;
+    background-image: url("../image/backdrop.png");
     background-attachment: fixed;
     background-position: top left;
     background-repeat: repeat-x;
-    max-width: 80em;
+    max-width: 60em;
 }
 header {
     background-image: url("../image/notification_icon.png");
@@ -29,7 +30,7 @@ header nav {
     border-bottom-width: 0;
     border-top-width: 0;
     text-decoration: none;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 header nav ul {
     width: 100%;
@@ -45,6 +46,8 @@ header nav li a {
     float: left;
     padding: .5em 2em;
     border-right: .1em solid;
+    text-decoration: none;
+    font-family: "Apple Braille";
 }
 article {
     border-width: .1em;
@@ -59,9 +62,9 @@ article h1{
 
 article img {
     border-width: .1em;
-    border-style: solid;
+    border-style: none;
     outline-width: .1em;
-    outline-style: solid;
+    outline-style: none;
 }
 #what_dribbble{
     font-family: Impact;
@@ -94,8 +97,14 @@ article img {
 }
 
 
-#imagegallery li {
+#screenshots_gallary li{
     display: inline;
+    padding-left: 50px;
+}
+
+#screenshots_title{
+    padding: 20px;
+    font-family: Impact;
 }
 
 

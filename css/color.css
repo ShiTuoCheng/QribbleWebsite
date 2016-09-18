@@ -1,6 +1,6 @@
 body{
     color: #ff4091;
-    background-color: #212121;
+    background-color: #000;
 }
 
 a:link{
@@ -50,7 +50,7 @@ article img {
     border-color: #ba9;
     outline-color: #dcb;
 }
-#imagegallery a {
+#screenshots_gallary a {
     background-color: transparent;
 }
 
