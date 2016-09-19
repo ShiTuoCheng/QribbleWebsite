@@ -56,7 +56,11 @@ article img {
 #descripton{
     font-family: Impact;
 }
-
+#weibo{
+    text-decoration: none;
+    font-family: "Al Bayan";
+    color: gold;
+}
 header nav a.here:link,
 header nav a.here:visited,
 header nav a.here:hover,

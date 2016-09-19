@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact</title>
+    <script type="text/javascript" src="../script/modernizr-custom.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/basic.css"/>
 </head>
 <body>
+    <header>
+    <img src="../image/background.png" />
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="ScreenShots.html">ScreenShots</a></li>
+            <li><a href="Github.html">Github</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+    </header>
+    <article> 
+        <ul>
+            <li>
+                <h1 class="contact_title">If you have some questions, please let me know :)</h1>
+                <form method="post" action="submit.html">
+                    <fieldset>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required="required" />
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required="required" />
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                            <textarea cols="45" rows="7" id="message" name="message" required="required" placeholder="Write your message here."></textarea>
+                        </p>
+                        <input type="submit" value="Send" />
+                    </fieldset>
+                </form>
+            </li>
+            <li>
+                <h1 class="contact_title">Or you can follow my Sina Weibo or Instagram:)</h1>
+                <p>Sina Weibo: <a href="http://weibo.com/1838812817/profile?topnav=1&wvr=6&is_all=1" id="weibo">@stc3033</a></p>
+            </li>
+        </ul>
 
+</article>
+<script type="text/javascript" src="../script/Utils.js"></script>
+<script type="text/javascript" src="../script/highlightPage.js"></script>
 </body>
 </html>

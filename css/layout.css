@@ -108,6 +108,10 @@ article img {
     padding: 20px;
     font-family: Impact;
 }
+.contact_title{
+    font-family: Impact;
+    padding: 10px;
+}
 
 
 td {
@@ -131,4 +135,5 @@ label {
 }
 fieldset {
     border: 0;
+    border-style: dotted;
 }
