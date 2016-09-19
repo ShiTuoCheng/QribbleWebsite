@@ -56,10 +56,26 @@ article img {
 #descripton{
     font-family: Impact;
 }
-#weibo{
+#weibo {
     text-decoration: none;
     font-family: "Al Bayan";
     color: gold;
+}
+input.placeholder{
+    color: #ff4091;
+    border-color: #ff4091;
+}
+#name:focus{
+    color: #ff4091;
+    border-color: #ff4091;
+}
+#email:focus{
+    color: #ff4091;
+    border-color: #ff4091;
+}
+#message:focus{
+    color: #ff4091;
+    border-color: #ff4091;
 }
 header nav a.here:link,
 header nav a.here:visited,
