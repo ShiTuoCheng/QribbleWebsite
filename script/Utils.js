@@ -11,12 +11,12 @@ function addLoadFunction(func) {
     }
 }
 
-function insertAfter(newElement, targetElement) {
+function insertAfter(newElement,targetElement) {
     var parent = targetElement.parentNode;
-    if (parent.lastChild == targetElement){
+    if (parent.lastChild == targetElement) {
         parent.appendChild(newElement);
-    }else{
-        parent.insertBefore(newElement, targetElement.nextSibling);
+    } else {
+        parent.insertBefore(newElement,targetElement.nextSibling);
     }
 }
 

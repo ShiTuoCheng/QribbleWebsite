@@ -53,6 +53,9 @@ article img {
 #screenshots_gallary a {
     background-color: transparent;
 }
+#descripton{
+    font-family: Impact;
+}
 
 header nav a.here:link,
 header nav a.here:visited,
