@@ -30,13 +30,3 @@ function addClass(element, value) {
         element.className = newClassName;
     }
 }
-
-function moveElement(elementId, final_x, final_y, interval) {
-    var elem = document.getElementById(elementId);
-    if (!elem.style.left){
-        elem.style.left = "0px";
-    }
-    if (!elem.style.top){
-        elem.style.top = "0px";
-    }
-}
